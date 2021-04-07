@@ -1,0 +1,20 @@
+.offer_button {
+  transition: linear;
+  transition-property: color background;
+  transition-duration: 1s;
+}
+
+div.first button.offer_button:hover {
+  background: white;
+  color: black;
+}
+
+.single_offer {
+  transition: linear;
+  transition-property: width height;
+  transition-duration: 0.5s;
+}
+
+.single_offer:hover {
+  transform: scale(1.05);
+}

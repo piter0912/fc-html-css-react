@@ -1,0 +1,75 @@
+section.center {
+  background: #ddd;
+}
+
+.first_employee_photo,
+.second_employee_photo {
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  display: flex;
+  margin: 30px;
+}
+
+.first_employee_photo {
+  background-image: url("https://freepngimg.com/thumb/moustache/69312-neeson-caricature-celebrity-draw-mark-zuckerberg-liam.png");
+}
+
+.second_employee_photo {
+  background-image: url("https://samequizy.pl/wp-content/uploads/2018/01/filing_images_86336c856b88.jpg");
+}
+
+section.center h1 {
+  margin-top: 0;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.employee:nth-of-type(odd) {
+  display: flex;
+  flex-direction: row;
+}
+
+.employee:nth-of-type(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+section.center div.employees {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.center div.first_employee {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+section.center div.second_employee {
+  display: flex;
+  /* flex-direction: row-reverse; */
+}
+
+section.center img {
+  display: flex;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #555;
+  margin: 30px;
+}
+
+section.center p {
+  display: flex;
+  padding: 0 30px;
+}
+
+.employee_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,35 @@
+@media screen and (max-width: 960px) {
+  body {
+    width: 100%;
+  }
+
+  section.top {
+    width: 100%;
+  }
+
+  .navigation {
+    width: 100%;
+  }
+
+  section.center div.first_employee {
+    flex-wrap: wrap;
+  }
+
+  section.center div.second_employee {
+    flex-wrap: wrap;
+  }
+
+  .first_employee {
+    justify-content: center;
+  }
+
+  .second_employee {
+    justify-content: center;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

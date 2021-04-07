@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 960px;
+  margin: 0 auto;
+}
+
+section,
+nav {
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+section.top {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: url("https://picsum.photos/1920/1080");
+  background-size: cover;
+}
+
+div.first {
+  height: 100vh;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+div.first h1 {
+  color: white;
+  font-size: 30px;
+}
+
+div.first p {
+  color: white;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+div.first button {
+  color: white;
+  border: 3px solid white;
+  font-size: 25px;
+  padding: 5px 40px;
+  background: transparent;
+  color: white;
+  margin-top: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 30px;
+  color: white;
+  width: 960px;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.about,
+.offer,
+.contact {
+  padding: 15px;
+  color: white;
+}
+
+.contact:hover {
+  cursor: not-allowed;
+}
