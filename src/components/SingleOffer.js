@@ -1,11 +1,14 @@
 import React from 'react';
 
 const SingleOffer = (props) => {
+
+    const {title, isNew} = props.data;
+
     return ( 
         <div className="single_offer">
-            {props.isNew && <div className="dot"></div>}
-            <p>{props.title}</p>
-            {props.subtitle !== "" && <p className="small">props.subtitle</p>}
+            {isNew && <div className="dot"></div>}
+            <p>{title}</p>
+            {isNew && <p className="small">(nowość)</p>}
         </div>
      );
 }

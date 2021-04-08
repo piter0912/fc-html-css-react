@@ -1,7 +1,7 @@
 import Navigation from './Navigation';
-import Top from './Top';
-import About from './About';
-import Offer from './Offer';
+import TopSection from './TopSection';
+import AboutSection from './AboutSection';
+import OffersSection from './OffersSection';
 import Footer from './Footer';
 import '../style/actions.css';
 import '../style/bottom.css';
@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <Navigation />
-      <Top />
-      <About />
-      <Offer />
+      <TopSection />
+      <AboutSection />
+      <OffersSection />
       <Footer />
     </>
   );
